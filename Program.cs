@@ -20,7 +20,6 @@ int GetStrSum(int start, int finish)
         return start;
     }
     return start + GetStrSum(start + 1, finish);
-    // Если нужна обратная очередность, + start + " " переносим в конец. 
 }
 
 int userNumberStart = GetFromUserData("Введите значение начала ряда: ");
